@@ -1,0 +1,43 @@
+@layer base {
+  :root,
+  [data-theme='light'] {
+    --background: #f8fafc;
+    --foreground: #0f1729;
+    --primary: #925cf0;
+    --primary-foreground: #f8fafc;
+    --card: #fcfcfe;
+    --border: rgba(9, 9, 11, 0.08);
+    --muted-primary: rgba(146, 92, 240, 0.5);
+    --muted-foreground: #64749a;
+    --secondary-button: #f1f5f9;
+    --input: #fcfcfe;
+  }
+
+  [data-theme='dark'] {
+    --background: #0f0d16;
+    --foreground: #fcfcfe;
+    --primary: #925cf0;
+    --primary-foreground: #fcfcfc;
+    --card: #181622;
+    --border: rgba(248, 250, 252, 0.4);
+    --muted-primary: rgba(146, 92, 240, 0.2);
+    --muted-foreground: #ad9fc8;
+    --secondary-button: #27272a;
+    --input: #232131;
+  }
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-muted-primary: var(--muted-primary);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-secondary-button: var(--secondary-button);
+  --color-input: var(--input);
+  --color-red-500: #ef4444;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
