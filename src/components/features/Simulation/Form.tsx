@@ -25,8 +25,8 @@ export const SimulationForm = () => {
     console.log({ updatedFormData })
 
     if (currentStepIndex + 1 > totalSteps - 1) {
-      saveFormData(updatedFormData)
-      void navigate('/resultado')
+      const id = saveFormData(updatedFormData)
+      void navigate(`/resultado/${id}`)
       return
     }
 
