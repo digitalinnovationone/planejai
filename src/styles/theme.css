@@ -11,6 +11,8 @@
     --muted-foreground: #64749a;
     --secondary-button: #f1f5f9;
     --input: #fcfcfe;
+    --skeleton-base-color: #e1e1f1;
+    --skeleton-highlight-color: #c5c5df;
   }
 
   [data-theme='dark'] {
@@ -24,6 +26,8 @@
     --muted-foreground: #ad9fc8;
     --secondary-button: #27272a;
     --input: #232131;
+    --skeleton-base-color: #3e3e42;
+    --skeleton-highlight-color: #434052;
   }
 }
 
@@ -40,4 +44,6 @@
   --color-input: var(--input);
   --color-red-500: #ef4444;
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --color-skeleton-base: var(--skeleton-base-color);
+  --color-skeleton-highlight: var(--skeleton-highlight-color);
 }
