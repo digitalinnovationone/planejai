@@ -189,6 +189,14 @@ Crie o arquivo `src/styles/theme.css` e cole o conteúdo abaixo. Ele define as v
 
 ---
 
+## Design
+
+O layout do projeto está disponível no Figma:
+
+[Educador Financeiro — DIO](https://www.figma.com/design/MVZhmZxoVAsgotZo50gj6M/Educador-Financeiro---DIO?node-id=29-403&t=Cv4vW38VUtwwLO3Z-1)
+
+---
+
 ## Assets
 
 Faça o download dos arquivos abaixo e coloque-os nos caminhos indicados dentro do projeto:
